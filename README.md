@@ -7,17 +7,17 @@ Este sistema representa una solución integral de optimización de procesos y ge
 ### 1. Consulta de Inventario con Filtro de Puntuación
 El asistente intercepta mensajes entrantes en lenguaje natural, normaliza el texto eliminando caracteres especiales (`¿?¡!`) y realiza una consulta dinámica en la hoja de cálculo para validar stock y precios en milisegundos:
 
-![Consulta de Inventario en WhatsApp](img/Demo_Stock.png)
+![Consulta de Inventario en WhatsApp](Img/Demo_Stock.png)
 
 ### 2. Persistencia en la Nube y Captura de Leads Automatizada
 Si el cliente activa una intención explícita de compra o cotización (`"Cotizar"`, `"Me interesa"`), el núcleo del software calcula la estampa de tiempo e inserta asíncronamente los datos de perfil del usuario en una pestaña dedicada de Google Sheets:
 
-![Registro de Prospectos en Google Sheets](img/Demo_Inventario.png)
+![Registro de Prospectos en Google Sheets](Img/Demo_Inventario.png)
 
 ### 3. Backend de Control de Grado de Producción
 Servidor asíncrono robusto construido bajo el microframework `Flask`, controlado por logs de auditoría en terminal para diagnóstico y trazabilidad de eventos:
 
-![Logs del Servidor Flask](img/Demo_Server.png)
+![Logs del Servidor Flask](Img/Demo_Server.png)
 
 ## 🛠️ Características Técnicas
 * **Limpieza Sintáctica Avanzada:** Robustez algorítmica para emparejar cadenas de texto ignorando dedazos, mayúsculas o signos de puntuación.
